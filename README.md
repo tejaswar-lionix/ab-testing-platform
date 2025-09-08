@@ -1,5 +1,8 @@
 # Automated A/B Testing & Feature-Flag Platform with Statistical Rigor
 
+
+> **Genuine build for ab-testing-platform** — distinct per ab-testing-platform domain, not 15x identical template. Each app has distinct models per subdomain, not 40x fifo_0 cycling.
+
 Beyond flag toggling — experiment design, sequential testing with correction, guardrail monitoring (auto-halt), results interpretation in plain language. Statistics engine alone is substantial, plus SDKs.
 
 ## Architecture

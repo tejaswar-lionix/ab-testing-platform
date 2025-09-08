@@ -8,11 +8,11 @@ logger = logging.getLogger(__name__)
 # statistics: Statistics - sequential testing, p-values, correction
 # Details: sequential, p-values, correction
 
-class StatisticsStatus(str, Enum):
+class StatisticsExtraStatus(str, Enum):
     PENDING='pending'; ACTIVE='active'; FAILED='failed'
 
 @dataclass
-class StatisticsEntity:
+class StatisticsExtraEntity:
     """Statistics - sequential testing, p-values, correction"""
     id: str = field(default_factory=lambda: str(uuid.uuid4()))
     created_at: float = field(default_factory=time.time)
